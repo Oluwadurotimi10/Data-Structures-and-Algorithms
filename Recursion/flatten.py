@@ -11,7 +11,6 @@ def flatten(arr):
     """
     finalArr = []
     for block in arr:
-        print(finalArr)
         if type(block) is list:
             finalArr.extend(flatten(block))
         else:

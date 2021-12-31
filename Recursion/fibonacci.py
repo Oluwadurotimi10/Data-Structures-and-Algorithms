@@ -12,9 +12,7 @@ def fib(n):
         starts with 0 and 1, where the number thereafter is equal to the sum of the previous two 
         numbers.
     """
-    if n == 0:
-        return 0
-    if n == 1 or n == 2:
-        return 1
+    if n <= 2:
+        return n
     return fib(n-1) + fib(n-2)
-print(fib(35))
+print(fib(3))

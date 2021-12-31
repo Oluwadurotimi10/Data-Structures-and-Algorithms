@@ -22,5 +22,5 @@ def someRecursive(arr,cb):
     if cb(arr[0]):
         return True
     return someRecursive(arr[1:], cb)
-arr = [4,6,8,10,20,44]
+arr = [4,6,8,1,20,44]
 print(someRecursive(arr, isOdd))
