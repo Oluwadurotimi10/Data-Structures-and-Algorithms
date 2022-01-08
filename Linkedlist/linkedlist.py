@@ -16,7 +16,7 @@ class LinkedList:
             showval = showval.nextval
         if showval is None:
             print("None", end ="")
-    #inserting at the beginnin
+    #inserting at the beginning
     def Begining(self, newdata):
         NewNode = Node(newdata)
         NewNode.nextval = self.headval
